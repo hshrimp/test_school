@@ -12,6 +12,7 @@ def find():
 
 if __name__ == '__main__':
     n = int(input())
+    # jl = [int(x) for x in input().split()]
     jl = list(map(int, input().split()))
 
     find()
